@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-            var scanner = new Scanner(System.ini);
+            var scanner = new Scanner(System.in);
 
-
+            System.out.print(academy.learnprogramming.Doctor.intro());
 
             scanner.close();
         }
