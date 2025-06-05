@@ -21,12 +21,13 @@ public class SimpleCalc {
 
         //        Define and initialize a variable that stores the difference of the two numbers.
 
-        int difference = num1 - num2;
-        System.out.print(difference);
+//        int difference = num1 - num2;
+//        System.out.print(difference);
 
         //        Define and initialize a variable that stores the product of the two numbers.
 
-
+        int product = num1 * num2;
+        System.out.print(product);
 
 //        Define and initialize a variable that stores the quotient of the two numbers.
 
