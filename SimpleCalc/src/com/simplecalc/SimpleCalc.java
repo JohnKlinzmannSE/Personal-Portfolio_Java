@@ -8,8 +8,12 @@ public class SimpleCalc {
         //        Initialize scanner for user input
         Scanner scnr = new Scanner(System.in);
 
+//        Make program more interesting by adding greeting for user
+        System.out.println("Hello and welcome to Simple Calculator. What is your name?");
+        String name = scnr.nextLine();
+
         //        Define and initialize two variables that collect two different numbers from user
-        System.out.println("Choose your first number.");
+        System.out.println("Hi, " + name + "!" + " Choose your first number.");
         int num1 = scnr.nextInt();
         System.out.println("Choose your second number.");
         int num2 = scnr.nextInt();
@@ -44,12 +48,12 @@ public class SimpleCalc {
         System.out.println("The sum of " + num1 + " plus " + num2 + " is: ");
         System.out.println(sum);
         System.out.println("The difference of " + num1 + " minus " + num2 + " is: ");
-        System.out.print(difference);
+        System.out.println(difference);
         System.out.println("The product of " + num1 + " times " + num2 + " is: ");
         System.out.println(product);
         System.out.println("The quotient of " + num1 + " divided by " +  num2  + " using integer division is: ");
         System.out.println(quotient);
-        System.out.println("The quotient of " + num1 + " divided by " +  num2  + " using floating-point division is: ");
+        System.out.println("The quotient of " + num1 + " divided by " +  num2  + " using decimal division is: ");
         System.out.println(dblQuotient);
     }
 }
