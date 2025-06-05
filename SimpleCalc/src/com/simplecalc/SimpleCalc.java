@@ -31,7 +31,10 @@ public class SimpleCalc {
 
 //        Define and initialize a variable that stores the quotient of the two numbers.
 
-        int quotient = num1 / num2;
+//        int quotient = num1 / num2;
+//        System.out.print(quotient);
+
+        double quotient = (double) num1 / num2;
         System.out.print(quotient);
 
 //        Print the output for each calculation using the following formatting:
