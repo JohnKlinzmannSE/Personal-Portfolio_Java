@@ -13,6 +13,8 @@ public class SimpleCalc {
         int num1 = scnr.nextInt();
         System.out.println("Choose your second number.");
         int num2 = scnr.nextInt();
+//        Print blank line in between input and output
+        System.out.println();
 
         //        Define and initialize a variable that stores the sum of the two numbers.
 
@@ -39,10 +41,15 @@ public class SimpleCalc {
 
 //        Print the output for each calculation using the provided formatting in the README
 
-        System.out.println("The sum of " + num1 + " plus " + num2 + " is: " + sum);
-        System.out.println("The difference of " + num1 + " minus " + num2 + " is: " + difference);
-        System.out.println("The product of " + num1 + " times " + num2 + " is: " + product);
-        System.out.println("The quotient of " + num1 + " divided by " +  num2  + " using integer division is: " + quotient);
-        System.out.println("The quotient of " + num1 + " divided by " +  num2  + " using floating-point division is: " + dblQuotient);
+        System.out.println("The sum of " + num1 + " plus " + num2 + " is: ");
+        System.out.println(sum);
+        System.out.println("The difference of " + num1 + " minus " + num2 + " is: ");
+        System.out.print(difference);
+        System.out.println("The product of " + num1 + " times " + num2 + " is: ");
+        System.out.println(product);
+        System.out.println("The quotient of " + num1 + " divided by " +  num2  + " using integer division is: ");
+        System.out.println(quotient);
+        System.out.println("The quotient of " + num1 + " divided by " +  num2  + " using floating-point division is: ");
+        System.out.println(dblQuotient);
     }
 }
