@@ -4,7 +4,9 @@ import java.util.Scanner
 public class SimpleCalculator {
     public static void main(String[] args) {
 
-        Scanner snc
+        Scanner scnr = new Scanner(system.in);
+
+
 
 
     }
