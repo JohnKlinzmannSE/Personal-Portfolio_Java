@@ -16,28 +16,33 @@ public class SimpleCalc {
 
         //        Define and initialize a variable that stores the sum of the two numbers.
 
-//        int sum = num1 + num2;
+        int sum = num1 + num2;
 //        System.out.print(sum);
 
         //        Define and initialize a variable that stores the difference of the two numbers.
 
-//        int difference = num1 - num2;
+        int difference = num1 - num2;
 //        System.out.print(difference);
 
         //        Define and initialize a variable that stores the product of the two numbers.
 
-//        int product = num1 * num2;
+        int product = num1 * num2;
 //        System.out.print(product);
 
 //        Define and initialize a variable that stores the quotient of the two numbers.
 
-//        int quotient = num1 / num2;
+        int quotient = num1 / num2;
 //        System.out.print(quotient);
 
-        double quotient = (double) num1 / num2;
-        System.out.print(quotient);
+        double dblQuotient = (double) num1 / num2;
+//        System.out.print(quotient);
 
-//        Print the output for each calculation using the following formatting:
+//        Print the output for each calculation using the provided formatting in the README
 
+        System.out.println("The sum of " + num1 + " plus " + num2 + " is: " + sum);
+        System.out.println("The difference of " + num1 + " minus " + num2 + " is: " + difference);
+        System.out.println("The product of " + num1 + " times " + num2 + " is: " + product);
+        System.out.println("The quotient of " + num1 + " divided by " +  num2  + " using integer division is: " + quotient);
+        System.out.println("The quotient of " + num1 + " divided by " +  num2  + " using floating-point division is: " + dblQuotient);
     }
 }
