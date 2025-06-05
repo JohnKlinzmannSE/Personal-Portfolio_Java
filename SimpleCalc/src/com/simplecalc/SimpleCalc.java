@@ -14,8 +14,24 @@ public class SimpleCalc {
         System.out.println("Choose your second number.");
         int num2 = scnr.nextInt();
 
-        System.out.println(num1);
-        System.out.println(num2);
+//        Define and initialize a variable that stores the sum of the two numbers.
+
+        int sum = num1 + num2;
+        System.out.print(sum);
+
+//        Define and initialize a variable that stores the difference of the two numbers.
+
+
+
+//        Define and initialize a variable that stores the product of the two numbers.
+
+
+
+//        Define and initialize a variable that stores the quotient of the two numbers.
+
+
+
+//        Print the output for each calculation using the following formatting:
 
     }
 }
