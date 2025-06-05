@@ -26,12 +26,13 @@ public class SimpleCalc {
 
         //        Define and initialize a variable that stores the product of the two numbers.
 
-        int product = num1 * num2;
-        System.out.print(product);
+//        int product = num1 * num2;
+//        System.out.print(product);
 
 //        Define and initialize a variable that stores the quotient of the two numbers.
 
-
+        int quotient = num1 / num2;
+        System.out.print(quotient);
 
 //        Print the output for each calculation using the following formatting:
 
