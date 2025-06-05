@@ -13,6 +13,7 @@
    
 3. End each line with a newline.
 4. Print your full first name as output.
+5. My name is "John", so I will be printing "JOHN".
 
 
 
