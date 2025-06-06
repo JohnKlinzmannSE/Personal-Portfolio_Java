@@ -21,10 +21,14 @@ public class WeddingTables {
         int tablesFilled = guests / guestsPerTable;
         System.out.println("Tables filled: " + tablesFilled);
 
-//        Calculate how many tables will be needed to seat all guests
+//        Determine if there are any extra guests that are not seated at a table
+        int extraGuests = guests % guestsPerTable;
+        System.out.println("Guests that need a seat at a table: " + extraGuests);
 
-        if ((guests % guestsPerTable != 0)) {
-            System.out.print("Need more tables!");
+//        Determine how many additional tables are needed to seat the extra guests
+        if(extraGuests <= 10) {
+            int tablesNeeded = tablesFilled + 1;
+            System.out.println("Tables needed: " +  tablesNeeded);
         }
 
     }
