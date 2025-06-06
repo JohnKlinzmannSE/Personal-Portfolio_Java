@@ -23,8 +23,9 @@ public class WeddingTables {
 
 //        Calculate how many tables will be needed to seat all guests
 
-        int tablesNeeded = tablesFilled % guests;
-        System.out.println("Tables needed: " + tablesNeeded);
+        if ((guests % guestsPerTable != 0)) {
+            System.out.print("Need more tables!");
+        }
 
     }
 }
