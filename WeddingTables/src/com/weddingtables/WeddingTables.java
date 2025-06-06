@@ -12,18 +12,19 @@ public class WeddingTables {
         Scanner scnr = new Scanner(System.in);
 
 //        Ask user for number of guests attending wedding
+        System.out.println("How many guests will be attending the wedding?");
 
         int guests = scnr.nextInt();
 
 //        Calculate how many tables will be filled by the input guests and output table number
 
         int tablesFilled = guests / guestsPerTable;
-        System.out.print(tablesFilled);
+        System.out.println("Tables filled: " + tablesFilled);
 
 //        Calculate how many tables will be needed to seat all guests
 
         int tablesNeeded = tablesFilled % guests;
-        System.out.print(tablesNeeded);
+        System.out.println("Tables needed: " + tablesNeeded);
 
     }
 }
